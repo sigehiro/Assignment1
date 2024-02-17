@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="main.css"
+    />
+    <style>
+      .dream-content .header {
+        padding: 30px;
+      }
+    </style>
+    <title>My Dreams</title>
+  </head>
+  <body>
+    <div class="dream-content">
+      <section class="header">
+        <p><strong>My Dreams</strong></p>
+      </section>
+      <div class="article-form-content">
+        <section class="article-left">
+          <article>
+            <h2>Here are my dreams.</h2>
+            <p>
+              My dream is to establish a trading company. The reason why a
+              trading company is important to me is because I worked for a
+              pharmaceutical trading company in Japan. I want my trading company
+              to handle more than just medicines. A trading company handles a
+              variety of products. This means that I have to travel to many
+              different countries and regions. I could do the same job in Japan,
+              but I wanted to go there and learn about the products and their
+              thoughts there, so I came to Canada, where the environment is
+              English-speaking. Working for a trading company requires a lot of
+              money, so I would like to work as an engineer to learn about money
+              and technology and realise my dream. After I realise my dream, I
+              will be satisfied with my life if I can spend my old age freely on
+              a southern island.
+            </p>
+          </article>
+        </section>
+
+        <section class="form-right">
+          <form
+            action="/submit"
+            method="post"
+          >
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+            /><br /><br />
+
+            <label for="email">Mailaddress: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+            /><br /><br />
+
+            <label for="dream">Dream: </label>
+            <textarea
+              id="dream"
+              name="dream"
+              rows="5"
+              cols="30"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input
+              type="submit"
+              value="送信"
+            />
+          </form>
+          <p>If you do send it, it will not be displayed</p>
+        </section>
+      </div>
+    </div>
+    <div>
+      <ul class="link-page">
+        <li><a href="index.html">Top</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
